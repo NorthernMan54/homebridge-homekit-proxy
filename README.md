@@ -15,7 +15,7 @@ The Plugin currently supports the following Services provided by **WLAN**-based 
  - `Switch`
  - `Outlet`
  - `Motion Sensors`
- - `Temperatur Sensors`
+ - `Temperature Sensors`
  - `Humidity Sensors`
  - `CO2 Sensors`
 -  `Carbon Monoxid Sensors`
@@ -23,6 +23,7 @@ The Plugin currently supports the following Services provided by **WLAN**-based 
  - `Ambient Light Sensors`
  - `Light Bulbs`
  - `Battery/Charging State`
+ - `Fan`
 
 BLE is currently not supported, as it seems to be unstable when multiple BLE-enabled Plugins are installed.
 
@@ -134,5 +135,6 @@ The command `npm rund build` will trigger the compilation of your project manual
 - Gardena Smart Control Hub
   - Gardena Smart Irrigation Control
   - Gardena Smart Sensor II
+- Hunter SimpleConnect Ceiling Fan
   
 Please let me know if you use this plugin and got it to work with a new HomeKit-Accesory that is not listed above
